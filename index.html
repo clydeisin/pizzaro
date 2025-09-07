@@ -1,0 +1,2080 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://pizzaro.madrasthemes.com/xmlrpc.php">
+
+    <title>Pizzaro &#8211; Fast Food &amp; Restaurant WooCommerce Theme</title>
+    <meta name='robots' content='noindex, nofollow' />
+    <style>
+        img:is([sizes="auto" i], [sizes^="auto," i]) {
+            contain-intrinsic-size: 3000px 1500px
+        }
+    </style>
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="alternate" type="application/rss+xml" title="Pizzaro &raquo; Feed" href="https://pizzaro.madrasthemes.com/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Pizzaro &raquo; Comments Feed" href="https://pizzaro.madrasthemes.com/comments/feed/" />
+    <link rel="alternate" type="text/calendar" title="Pizzaro &raquo; iCal Feed" href="https://pizzaro.madrasthemes.com/events/?ical=1" />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/pizzaro.madrasthemes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.2"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(s, n) {
+            var o, i, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === a[t]
+                })
+            }
+
+            function u(e, t) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)
+                    if (0 !== n.data[a]) return !1;
+                return !0
+            }
+
+            function f(e, t, n, a) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !a(e, "\ud83e\udedf")
+                }
+                return !1
+            }
+
+            function g(e, t, n, a) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : s.createElement("canvas"),
+                    o = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    i = (o.textBaseline = "top", o.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    i[e] = t(o, e, n, a)
+                }), i
+            }
+
+            function t(e) {
+                var t = s.createElement("script");
+                t.src = e, t.defer = !0, s.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", i = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                s.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p.toString(), u.toString()].join(",") + "));",
+                            a = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            r = new Worker(URL.createObjectURL(a), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(r.onmessage = function(e) {
+                            c(n = e.data), r.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = g(i, f, p, u))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+        /* ]]> */
+    </script>
+    <link rel='stylesheet' id='pizzaro-woocommerce-style-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/woocommerce/woocommerce.css?ver=6.8.2' type='text/css' media='all' />
+    <style id='wp-emoji-styles-inline-css' type='text/css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href='https://pizzaro.madrasthemes.com/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2' type='text/css' media='all' />
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+        /*! This file is auto-generated */
+
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1' type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='wpsl-styles-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/wp-store-locator/css/styles.min.css?ver=2.2.260' type='text/css' media='all' />
+    <link rel='stylesheet' id='wcqi-css-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce-quantity-increment/assets/css/wc-quantity-increment.css?ver=6.8.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='brands-styles-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/css/brands.css?ver=10.0.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/bootstrap.min.css?ver=3.3.7' type='text/css' media='all' />
+    <link rel='stylesheet' id='animate-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/animate.min.css?ver=3.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='pizzaro-style-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/style.css?ver=1.3.23' type='text/css' media='all' />
+    <link rel='stylesheet' id='pizzaro-color-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/color/red.css?ver=6.8.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='pizzaro-fonts-css' href='https://fonts.googleapis.com/css?family=Open%20Sans:400italic,400,300,600,700,800|Yanone+Kaffeesatz:400,700,300,200&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+    <link rel='stylesheet' id='pizzaro-icons-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/font-pizzaro.css?ver=6.8.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-scrollbar-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/jquery.mCustomScrollbar.min.css?ver=3.1.5' type='text/css' media='all' />
+    <link rel='stylesheet' id='woothemes-features-layout-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/features-by-woothemes/assets/css/layout.css?ver=1.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='pizzaro-demo-style-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/pizzaro-demo/assets/css/style.css?ver=1.0.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='pizzaro-woocommerce-brands-style-css' href='https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/css/woocommerce/extensions/brands.css?ver=6.8.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='kc-general-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/kingcomposer/assets/frontend/css/kingcomposer.min.css?ver=2.9.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='kc-animate-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/kingcomposer/assets/css/animate.css?ver=2.9.2' type='text/css' media='all' />
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/js/rbtools.min.js?ver=6.6.7" async id="tp-tools-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.6.7" async id="revmin-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.0.2" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" id="wc-add-to-cart-js-extra">
+        /* <![CDATA[ */
+        var wc_add_to_cart_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "i18n_view_cart": "View cart",
+            "cart_url": "https:\/\/pizzaro.madrasthemes.com\/cart\/",
+            "is_cart": "",
+            "cart_redirect_after_add": "no"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.0.2" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.0.2" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" id="woocommerce-js-extra">
+        /* <![CDATA[ */
+        var woocommerce_params = {
+            "ajax_url": "\/wp-admin\/admin-ajax.php",
+            "wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+            "i18n_password_show": "Show password",
+            "i18n_password_hide": "Hide password"
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.0.2" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce-quantity-increment/assets/js/wc-quantity-increment.min.js?ver=6.8.2" id="wcqi-js-js"></script>
+    <link rel="https://api.w.org/" href="https://pizzaro.madrasthemes.com/wp-json/" />
+    <link rel="alternate" title="JSON" type="application/json" href="https://pizzaro.madrasthemes.com/wp-json/wp/v2/pages/18" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pizzaro.madrasthemes.com/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.8.2" />
+    <meta name="generator" content="WooCommerce 10.0.2" />
+    <link rel="canonical" href="https://pizzaro.madrasthemes.com/" />
+    <link rel='shortlink' href='https://pizzaro.madrasthemes.com/' />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://pizzaro.madrasthemes.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpizzaro.madrasthemes.com%2F" />
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://pizzaro.madrasthemes.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpizzaro.madrasthemes.com%2F&#038;format=xml" />
+    <meta name="generator" content="Redux 4.5.7" />
+    <script type="text/javascript">
+        var kc_script_data = {
+            ajax_url: "https://pizzaro.madrasthemes.com/wp-admin/admin-ajax.php"
+        }
+    </script>
+    <meta name="tec-api-version" content="v1">
+    <meta name="tec-api-origin" content="https://pizzaro.madrasthemes.com">
+    <link rel="alternate" href="https://pizzaro.madrasthemes.com/wp-json/tribe/events/v1/" /> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+    <meta name="generator" content="Powered by Slider Revolution 6.6.7 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <link rel="icon" href="https://pizzaro.madrasthemes.com/wp-content/uploads/2017/02/fav-icon.png" sizes="32x32" />
+    <link rel="icon" href="https://pizzaro.madrasthemes.com/wp-content/uploads/2017/02/fav-icon.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://pizzaro.madrasthemes.com/wp-content/uploads/2017/02/fav-icon.png" />
+    <meta name="msapplication-TileImage" content="https://pizzaro.madrasthemes.com/wp-content/uploads/2017/02/fav-icon.png" />
+    <script>
+        function setREVStartSize(e) {
+            //window.requestAnimationFrame(function() {
+            window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+            window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+            try {
+                var pw = document.getElementById(e.c).parentNode.offsetWidth,
+                    newh;
+                pw = pw === 0 || isNaN(pw) || (e.l == "fullwidth" || e.layout == "fullwidth") ? window.RSIW : pw;
+                e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+                e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+                e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+                e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+                e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+                e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+                e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+                if (e.layout === "fullscreen" || e.l === "fullscreen")
+                    newh = Math.max(e.mh, window.RSIH);
+                else {
+                    e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+                    for (var i in e.rl)
+                        if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+                    e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+                    e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+                    for (var i in e.rl)
+                        if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+                    var nl = new Array(e.rl.length),
+                        ix = 0,
+                        sl;
+                    e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+                    e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+                    e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+                    e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+                    for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+                    sl = nl[0];
+                    for (var i in nl)
+                        if (sl > nl[i] && nl[i] > 0) {
+                            sl = nl[i];
+                            ix = i;
+                        }
+                    var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+                    newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+                }
+                var el = document.getElementById(e.c);
+                if (el !== null && el) el.style.height = newh + "px";
+                el = document.getElementById(e.c + "_wrapper");
+                if (el !== null && el) {
+                    el.style.height = newh + "px";
+                    el.style.display = "block";
+                }
+            } catch (e) {
+                console.log("Failure at Presize of Slider:" + e)
+            }
+            //});
+        };
+    </script>
+    <script type="text/javascript"></script>
+    <style type="text/css" id="kc-css-general">
+        .kc-off-notice {
+            display: inline-block !important;
+        }
+
+        .kc-container {
+            max-width: 1170px;
+        }
+    </style>
+    <style type="text/css" id="kc-css-render"></style>
+</head>
+
+<body class="home wp-singular page-template page-template-template-homepage-v1 page-template-template-homepage-v1-php page page-id-18 wp-theme-pizzaro theme-pizzaro kc-css-system woocommerce-no-js tribe-no-js woocommerce-active">
+    <div id="page" class="hfeed site">
+
+
+        <header id="masthead" class="site-header header-v1 " role="banner" style="background-image: none; ">
+            <div class="site-header-wrap">
+                <div class="col-full">
+
+                    <a class="skip-link screen-reader-text" href="#site-navigation">Skip to navigation</a>
+                    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+                    <div class="header-wrap">
+                        <div class="site-branding">
+                            <a href="https://pizzaro.madrasthemes.com/" class="custom-logo-link" rel="home"><svg id="pizzaro-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52.39">
+	<path class="cls-1" d="M51.33,16.15A5.61,5.61,0,0,0,56,10.88a4,4,0,0,0-4.67-4,5.38,5.38,0,0,0-4.67,5.22A4.07,4.07,0,0,0,51.33,16.15ZM21.42,3.69C6.1,5.62,0,17.8,0,25.47a16.41,16.41,0,0,0,2.6,8.68l5.62-4.92A11,11,0,0,1,7,24.48c0-5.22,5-13,14.42-14.18,8.17-1,10.5,4.17,10.5,8.48,0,8.21-8.17,14.51-14.42,11.78l3.23-8.35A10.87,10.87,0,0,1,25,16.72l-1.54-4.39c-5.3.67-9,5.19-10.5,9.05L1.17,52.4,9.6,51.34l5.73-15.11C29.59,40.35,40,28.8,40,17.72,40,9.67,34.47,2.05,21.42,3.69ZM197,12.22c-2.17,4-4.77,6.3-7.37,7.06A25.1,25.1,0,0,0,192,9.22c0-6.18-3.55-9.47-10-8.66-8.82,1.11-13.92,9-15.71,15.8-4,7.28-6.48,10.81-7.94,11-0.74.09-2-.6,0.42-6.88l1.48-4a8,8,0,0,0,.64-2.74c0-4-6.52-6.16-8.7-7.81L154,1.49,150.53,0c-2.17,1-5,4.2-5,6.92a4,4,0,0,0,1.64,3c-1.54,3.6-3,6.83-4.19,9.06h0c-3.82,7-7.42,11.22-9.54,11.49-1,.12-1.86-0.57.53-6.89l6.58-17.14-9.92,4.87s-1.17-4.17-6.31-3.52c-6.81.86-11.07,8.78-13.14,15.62-3.48,6.34-6.05,7.74-8,8-2.7.34-4.67-1.38-7.11-1.45l15.54-16.19-2.76-3.33c-5.2,2.63-9.17.46-13.52,1-6.36.8-7.58,6.71-12,15.05h0c-3.61,6.74-6.26,8.19-8.22,8.44-2.7.34-4.67-1.38-7.11-1.45L83.56,17.34,80.81,14c-5.2,2.63-9.17.46-13.52,1-6.36.8-7.58,6.71-12,15.05h0c-3.76,7-7.42,11.22-9.54,11.49-0.9.11-1.86-.51,0.58-6.9l6.52-17.13L44.38,18.6l-6,15.62c-3.87,10.13-.48,13.54,4.35,12.94,6.1-.77,11.4-7.62,15.48-15.33h0c3.45-6.51,4.56-7.93,7-8.24,2.23-.28,4.19.48,5.83,0.6L54.51,41.31l2.76,3.33c5.57-5.28,7.05-.2,13.63-1,6.73-.85,11-7.09,15.43-15.32h0c3.45-6.51,4.56-7.93,7-8.24,2.23-.28,4.19.48,5.83,0.6L82.61,37.77l2.76,3.33c5.57-5.29,7.05-.2,13.63-1,4.39-.55,7.72-3.4,10.74-7.59,0.25,3.46,2.25,6,6,5.49,4.67-.59,8.32-5.47,8.32-5.47s0.69,4.34,6.2,3.64c6.47-.81,11.61-7.59,15.75-15.36h0a93.45,93.45,0,0,0,4.24-9.11c1.43,1,2.6,1.86,2.6,2.92a5.62,5.62,0,0,1-.48,1.93L150.64,21c-3.82,9.91.58,12.45,4.72,11.93s7.48-4.12,10.53-8.89c0.9,4.5,4.34,7,9.93,6.31a16.62,16.62,0,0,0,11.08-6.67c5.41-.25,10.23-4.43,13.1-9.75A3.52,3.52,0,0,0,197,12.22ZM125,26.2s-2.44,4.14-5.36,4.51c-1.06.13-1.7-.37-1.7-1.76,0-3.41,3.92-13.87,8.11-14.4,2.33-.29,2.39,2.68,2.39,2.68Zm57.9-12.09a4.93,4.93,0,0,0-4.51,4.83,3.79,3.79,0,0,0,1.17,2.84c-1.17,1.69-2.49,2.93-3.76,3.09S173.7,24,173.7,22.3c0-3.94,4.08-15.65,8.27-16.18C183.09,6,184,6.66,184,8.63A18.75,18.75,0,0,1,182.87,14.11Z" transform="translate(0 -0.01)"></path>
+</svg>
+</a> </div>
+                        <nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Navigation">
+                            <button class="menu-toggle" aria-controls="site-navigation" aria-expanded="false"><span class="close-icon"><i class="po po-close-delete"></i></span><span class="menu-icon"><i class="po po-menu-icon"></i></span><span class=" screen-reader-text">Menu</span></button>
+
+                            <div class="primary-navigation">
+                                <ul id="menu-main-menu" class="menu">
+                                    <li id="menu-item-617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-617"><a href="https://pizzaro.madrasthemes.com/shop/">Order Online</a></li>
+                                    <li id="menu-item-618" class="yamm-fw menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-618"><a href="https://pizzaro.madrasthemes.com/about-us/">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-static_block menu-item-626">
+                                                <div class="yamm-content">
+                                                    <style type="text/css">
+                                                        @media only screen and (min-width: 1000px) and (max-width: 5000px) {
+                                                            body.kc-css-system .kc-css-2137457 {
+                                                                width: 25%;
+                                                            }
+                                                            body.kc-css-system .kc-css-4209891 {
+                                                                width: 25%;
+                                                            }
+                                                            body.kc-css-system .kc-css-790615 {
+                                                                width: 25%;
+                                                            }
+                                                            body.kc-css-system .kc-css-1014095 {
+                                                                width: 25%;
+                                                            }
+                                                        }
+                                                    </style>
+                                                    <section class="kc-elm kc-css-3629547 kc_row">
+                                                        <div class="kc-row-container  kc-container">
+                                                            <div class="kc-wrap-columns">
+                                                                <div class="kc-elm kc-css-2137457 kc_col-sm-3 kc_column kc_col-sm-3">
+                                                                    <div class="kc-col-container">
+                                                                        <div class="widget widget_nav_menu kc-elm kc-css-527118">
+                                                                            <div class="menu-pages-menu-1-container">
+                                                                                <ul id="menu-pages-menu-5" class="menu">
+                                                                                    <li class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-569"><a href="#">Home Pages</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-608"><a href="https://pizzaro.madrasthemes.com/">Home v1</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-609"><a href="https://pizzaro.madrasthemes.com/home-v2/">Home v2</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610"><a href="https://pizzaro.madrasthemes.com/home-v3/">Home v3</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-611"><a href="https://pizzaro.madrasthemes.com/home-v4/">Home v4</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-612"><a href="https://pizzaro.madrasthemes.com/home-v5/">Home v5</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-613"><a href="https://pizzaro.madrasthemes.com/home-v6/">Home v6</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-614"><a href="https://pizzaro.madrasthemes.com/home-v7/">Home v7</a></li>
+                                                                                    <li class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-575"><a href="#">User Account</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-636"><a href="https://pizzaro.madrasthemes.com/my-account/">My Account</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-637"><a href="https://pizzaro.madrasthemes.com/track-order/">Track Order</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="kc-elm kc-css-4209891 kc_col-sm-3 kc_column kc_col-sm-3">
+                                                                    <div class="kc-col-container">
+                                                                        <div class="widget widget_nav_menu kc-elm kc-css-3386157">
+                                                                            <div class="menu-pages-menu-2-container">
+                                                                                <ul id="menu-pages-menu-6" class="menu">
+                                                                                    <li class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-570"><a href="#">Shop Pages</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-487"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=grid-view&#038;shop_style=lite&#038;shop_layout=full-width&#038;shop_columns=3">Shop Grid 3 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-488"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=grid-view&#038;shop_style=lite&#038;shop_layout=full-width&#038;shop_columns=4">Shop Grid 4 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-550"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=grid-view&#038;shop_style=lite&#038;shop_layout=full-width&#038;shop_columns=6">Shop Grid 6 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-551"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-view&#038;shop_style=lite&#038;shop_layout=full-width&#038;shop_columns=1">Shop Listing</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-552"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-view&#038;shop_style=lite&#038;shop_layout=full-width&#038;shop_columns=2">Shop List 2 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-553"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-no-image-view&#038;shop_style=lite&#038;shop_layout=full-width">Shop List No Images</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-574"><a href="https://pizzaro.madrasthemes.com/shop-listing-noproductimages-parallax/">Shop List No Image Parallax</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-554"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=grid-view&#038;shop_style=lite&#038;shop_layout=left-sidebar&#038;shop_columns=3">Shop Sidebar Grid 3 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-555"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-view&#038;shop_style=lite&#038;shop_layout=left-sidebar&#038;shop_columns=1">Shop Sidebar Listing</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-556"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-view&#038;shop_style=lite&#038;shop_layout=left-sidebar&#038;shop_columns=2">Shop Sidebar List 2 Column</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="kc-elm kc-css-790615 kc_col-sm-3 kc_column kc_col-sm-3">
+                                                                    <div class="kc-col-container">
+                                                                        <div class="widget widget_nav_menu kc-elm kc-css-4191726">
+                                                                            <div class="menu-pages-menu-3-container">
+                                                                                <ul id="menu-pages-menu-7" class="menu">
+                                                                                    <li class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-571"><a href="#">Shop Pages &#8211; Dark</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-565"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=grid-view&#038;shop_style=dark&#038;shop_layout=full-width&#038;shop_columns=3">Shop Dark Grid 3 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-566"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-view&#038;shop_style=dark&#038;shop_layout=full-width&#038;shop_columns=1">Shop Dark List</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-567"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-view&#038;shop_style=dark&#038;shop_layout=full-width&#038;shop_columns=2">Shop Dark List 2 Column</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-568"><a href="https://pizzaro.madrasthemes.com/shop-demo/?shop_view=list-no-image-view&#038;shop_style=dark&#038;shop_layout=full-width">Shop Dark List No Images</a></li>
+                                                                                    <li class="nav-title menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-632"><a href="https://pizzaro.madrasthemes.com/blog/">Blog Pages</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-638"><a href="https://pizzaro.madrasthemes.com/blog/">Blog</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-633"><a href="https://pizzaro.madrasthemes.com/blog-fullwidth/">Blog Fullwidth</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-634"><a href="https://pizzaro.madrasthemes.com/blog-fullwidth-grid/">Blog Fullwidth Grid</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-635"><a href="https://pizzaro.madrasthemes.com/blog-grid/">Blog Grid</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="kc-elm kc-css-1014095 kc_col-sm-3 kc_column kc_col-sm-3">
+                                                                    <div class="kc-col-container">
+                                                                        <div class="widget widget_nav_menu kc-elm kc-css-3155041">
+                                                                            <div class="menu-pages-menu-4-container">
+                                                                                <ul id="menu-pages-menu-8" class="menu">
+                                                                                    <li class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-572"><a href="https://pizzaro.madrasthemes.com/product/hawaii-vegetarian-pizza/">Single Product Style</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-629"><a href="https://pizzaro.madrasthemes.com/product/hawaii-vegetarian-pizza/">Single Product v1</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-628"><a href="https://pizzaro.madrasthemes.com/product/hawaii-vegetarian-pizza-2/">Single Product v2</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-627"><a href="https://pizzaro.madrasthemes.com/product/hawaii-vegetarian-pizza-3/">Single Product v3</a></li>
+                                                                                    <li class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-573"><a href="#">Theme Pages</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-630"><a href="https://pizzaro.madrasthemes.com/about-us/">About Us</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-631"><a href="https://pizzaro.madrasthemes.com/contact/">Contact</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-615"><a href="https://pizzaro.madrasthemes.com/terms-conditions/">Terms &#038; Conditions</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-625"><a href="https://pizzaro.madrasthemes.com/faq-v1/">FAQ v1</a></li>
+                                                                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-616"><a href="https://pizzaro.madrasthemes.com/faq-v2/">FAQ v2</a></li>
+                                                                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-681"><a href="https://pizzaro.madrasthemes.com/?page_id=9543799295">404</a></li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </section>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-619" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-619"><a href="https://pizzaro.madrasthemes.com/blog/">News</a></li>
+                                    <li id="menu-item-647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-647"><a href="https://pizzaro.madrasthemes.com/store-locator/">Store Locator</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="handheld-navigation">
+                                <span class="phm-close">Close</span>
+                                <ul id="menu-food-menu" class="menu">
+                                    <li id="menu-item-557" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-557"><a href="https://pizzaro.madrasthemes.com/product-category/pizza/"><i class="po po-pizza"></i>Pizza</a></li>
+                                    <li id="menu-item-559" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-559"><a href="https://pizzaro.madrasthemes.com/product-category/burgers/"><i class="po po-burger"></i>Burgers</a></li>
+                                    <li id="menu-item-558" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-558"><a href="https://pizzaro.madrasthemes.com/product-category/salads-fit/"><i class="po po-salads"></i>Salads</a></li>
+                                    <li id="menu-item-564" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-564"><a href="https://pizzaro.madrasthemes.com/product-category/tacos/"><i class="po po-tacos"></i>Tacos</a></li>
+                                    <li id="menu-item-560" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-560"><a href="https://pizzaro.madrasthemes.com/product-category/hot-drinks/"><i class="po po-wraps"></i>Wraps</a></li>
+                                    <li id="menu-item-562" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-562"><a href="https://pizzaro.madrasthemes.com/product-category/pasta/"><i class="po po-fries"></i>Fries</a></li>
+                                    <li id="menu-item-563" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-563"><a href="https://pizzaro.madrasthemes.com/product-category/salads-fit/"><i class="po po-salads"></i>Salads</a></li>
+                                    <li id="menu-item-561" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-561"><a href="https://pizzaro.madrasthemes.com/product-category/cold-drinks/"><i class="po po-drinks"></i>Drinks</a></li>
+                                </ul>
+                            </div>
+
+                        </nav>
+                        <!-- #site-navigation -->
+                        <div class="header-info-wrapper">
+                            <div class="header-phone-numbers">
+                                <div class="header-phone-numbers-wrap">
+                                    <span class="intro-text">Call and Order in</span>
+                                    <select class="select-city-phone-numbers" name="city-phone-numbers" id="city-phone-numbers">
+											<option value="54 548 779 654">London</option>
+											<option value="33 398 621 710">Paris</option>
+											<option value="718 54 674 021">New York</option>
+									</select>
+                                </div>
+                                <span id="city-phone-number-label" class="phone-number"></span>
+                            </div>
+                            <ul class="site-header-cart-v2 menu">
+                                <li class="cart-content ">
+                                    <a href="https://pizzaro.madrasthemes.com/cart/" title="View your shopping cart">
+						<i class="po po-scooter"></i>
+						<span>
+							Your Cart is Empty						</span>
+					</a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="https://pizzaro.madrasthemes.com/cart/" title="View your shopping cart">
+								<span class="count">0 items</span> <span class="amount">&pound;0.00</span>
+							</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pizzaro-secondary-navigation">
+                        <nav class="secondary-navigation" role="navigation" aria-label="Secondary Navigation">
+                            <ul id="menu-food-menu-1" class="menu">
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-557"><a href="https://pizzaro.madrasthemes.com/product-category/pizza/"><i class="po po-pizza"></i>Pizza</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-559"><a href="https://pizzaro.madrasthemes.com/product-category/burgers/"><i class="po po-burger"></i>Burgers</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-558"><a href="https://pizzaro.madrasthemes.com/product-category/salads-fit/"><i class="po po-salads"></i>Salads</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-564"><a href="https://pizzaro.madrasthemes.com/product-category/tacos/"><i class="po po-tacos"></i>Tacos</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-560"><a href="https://pizzaro.madrasthemes.com/product-category/hot-drinks/"><i class="po po-wraps"></i>Wraps</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-562"><a href="https://pizzaro.madrasthemes.com/product-category/pasta/"><i class="po po-fries"></i>Fries</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-563"><a href="https://pizzaro.madrasthemes.com/product-category/salads-fit/"><i class="po po-salads"></i>Salads</a></li>
+                                <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-561"><a href="https://pizzaro.madrasthemes.com/product-category/cold-drinks/"><i class="po po-drinks"></i>Drinks</a></li>
+                            </ul>
+                        </nav>
+                        <!-- #secondary-navigation -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- #masthead -->
+
+
+        <div id="content" class="site-content" tabindex="-1">
+            <div class="col-full">
+
+
+                <div id="primary" class="content-area">
+                    <main id="main" class="site-main" role="main">
+
+                        <div class="entry-content">
+                            <div class="kc_clfw"></div>
+                        </div>
+                        <div class="home-v1-slider">
+
+                            <!-- START homev1slider REVOLUTION SLIDER 6.6.7 -->
+                            <p class="rs-p-wp-fix"></p>
+                            <rs-module-wrap id="rev_slider_6_1_wrapper" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                                <rs-module id="rev_slider_6_1" style="" data-version="6.6.7">
+                                    <rs-slides style="overflow: hidden; position: absolute;">
+                                        <rs-slide style="position: absolute;" data-key="rs-24" data-title="Slide" data-thumb="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/011-HomePage-100x50.jpg" data-anim="adpr:false;">
+                                            <img src="//pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home v1" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/011-HomePage.jpg"
+                                                data-no-retina>
+                                            <!--
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-1" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:c;y:280px;" data-text="s:140;l:121;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:5;font-family:'Yanone Kaffeesatz';">SUPREME BBQ
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-2" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:c;y:416px;" data-text="s:82;l:82;fw:300;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:6;font-family:'Yanone Kaffeesatz';">CHICKEN
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-3" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:c;y:529px;" data-text="l:22;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:7;font-family:'Yanone Kaffeesatz';">Bacon - Grilled Onions - Potatos - Mozarella - BBQ Sauce
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-4" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:c;y:511px;" data-text="fw:700;" data-dim="w:294px;h:1px;" data-border="bos:dashed;boc:rgba(255,255,255,0.50);bow:1px,1px,1px,1px;"
+                                                data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;" data-frame_999="o:0;tp:600;e:nothing;st:8900;" style="z-index:8;">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-8" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:505px;y:234px;" data-text="s:30;l:30;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:9;font-family:'';">LIMITED TIME OFFER
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-9" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:806px;y:248px;" data-text="fw:700;" data-dim="w:121px;h:1px;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:10;background-color:rgba(255,255,255,1);">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-10" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:305px;y:249px;" data-text="fw:700;" data-dim="w:121px;h:1px;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:11;background-color:rgba(255,255,255,1);">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-6" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:431px;y:213px;" data-text="fw:700;" data-dim="w:66px;h:66px;" data-border="bor:50px,50px,50px,50px;"
+                                                data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;" data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:12;background-color:rgba(255,174,0,1);">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-24-layer-7" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:445px;y:236px;" data-text="s:26;l:22;fw:700;" data-frame_0="rZ:359;tp:600;" data-frame_1="rZ:359;tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:13;font-family:'Yanone Kaffeesatz';">New!
+                                            </rs-layer>
+                                            <!--
+-->
+                                        </rs-slide>
+                                        <rs-slide style="position: absolute;" data-key="rs-25" data-title="Slide" data-thumb="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/02-HomePage-100x50.jpg" data-anim="adpr:false;">
+                                            <img src="//pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home v1" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/02-HomePage.jpg"
+                                                data-no-retina>
+                                            <!--
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-1" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:c;y:421px;" data-text="s:140;l:130;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:5;font-family:'Yanone Kaffeesatz';">ORYGINAL ITALY
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-2" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:c;y:554px;" data-text="s:82;l:80;fw:300;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:6;font-family:'Yanone Kaffeesatz';">PIZZA LOVERS SET
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-3" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:c;y:330px;" data-text="w:normal;fw:700;" data-dim="w:176px;h:87px;" data-frame_0="tp:600;"
+                                                data-frame_1="tp:600;e:power2.inOut;st:500;" data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:7;background-color:rgba(76,175,80,1);">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-5" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:543px;y:328px;" data-text="w:normal;s:50;l:60;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:8;font-family:'Yanone Kaffeesatz';">$
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-6" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:569px;y:323px;" data-text="w:normal;s:87;l:80;fw:700;" data-dim="w:73px;" data-frame_0="tp:600;"
+                                                data-frame_1="tp:600;e:power2.inOut;st:500;" data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:9;font-family:'Yanone Kaffeesatz';">12
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-7" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:653px;y:322px;" data-text="w:normal;s:50;l:60;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:10;font-family:'Yanone Kaffeesatz';">99
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-8" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:662px;y:385px;" data-text="w:normal;s:20;l:22;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:11;font-family:'Yanone Kaffeesatz';">ONLY
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-9" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:329px;y:379px;" data-text="w:normal;" data-dim="w:176px;h:2px;" data-border="bos:dashed;boc:rgba(255,255,255,1);bow:1px,1px,1px,1px;"
+                                                data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;" data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:12;">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-25-layer-11" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:740px;y:373px;" data-text="w:normal;" data-dim="w:176px;h:2px;" data-border="bos:dashed;boc:rgba(255,255,255,1);bow:1px,1px,1px,1px;"
+                                                data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;" data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:13;">
+                                            </rs-layer>
+                                            <!--
+-->
+                                        </rs-slide>
+                                        <rs-slide style="position: absolute;" data-key="rs-26" data-title="Slide" data-thumb="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/05-HomePage-FullWidth-100x50.jpg" data-anim="adpr:false;">
+                                            <img src="//pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home v1" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/05-HomePage-FullWidth.jpg"
+                                                data-no-retina>
+                                            <!--
+							-->
+                                            <rs-layer id="slider-6-slide-26-layer-1" data-type="text" data-color="rgba(252,57,57,1)" data-rsp_ch="on" data-xy="x:c;y:279px;" data-text="s:62;l:60;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:5;font-family:'Yanone Kaffeesatz';">DISCOVER WHAT'S NEW
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-26-layer-2" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:262px;y:375px;" data-text="s:170;l:130;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:6;font-family:'Yanone Kaffeesatz';">ORDER
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-26-layer-3" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:708px;y:376px;" data-text="s:170;l:130;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:7;font-family:'Yanone Kaffeesatz';">ONLINE
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-26-layer-4" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:597px;y:399px;" data-text="s:50;l:50;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:8;font-family:'Yanone Kaffeesatz';">WITH<br> VISA
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-26-layer-5" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:153px;y:432px;" data-text="s:57;l:37;fw:300;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:9;font-family:'Yanone Kaffeesatz';">AND
+                                            </rs-layer>
+                                            <!--
+-->
+                                        </rs-slide>
+                                        <rs-slide style="position: absolute;" data-key="rs-27" data-title="Slide" data-thumb="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/05-HomePage-FullWidth-100x50.jpg" data-anim="adpr:false;">
+                                            <img src="//pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home v1" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//pizzaro.madrasthemes.com/wp-content/uploads/revslider/home-v1-slider/05-HomePage-FullWidth.jpg"
+                                                data-no-retina>
+                                            <!--
+							-->
+                                            <rs-layer id="slider-6-slide-27-layer-1" data-type="text" data-color="rgba(252,57,57,1)" data-rsp_ch="on" data-xy="x:c;y:279px;" data-text="s:62;l:60;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:5;font-family:'Yanone Kaffeesatz';">DISCOVER WHAT'S NEW
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-27-layer-2" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:259px;y:373px;" data-text="s:170;l:130;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:6;font-family:'Yanone Kaffeesatz';">ORDER
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-27-layer-3" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:706px;y:376px;" data-text="s:170;l:130;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:7;font-family:'Yanone Kaffeesatz';">ONLINE
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-27-layer-4" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:599px;y:399px;" data-text="s:50;l:50;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:8;font-family:'Yanone Kaffeesatz';">WITH<br> VISA
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-27-layer-5" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:158px;y:430px;" data-text="s:57;l:37;fw:300;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;" style="z-index:9;font-family:'Yanone Kaffeesatz';">AND
+                                            </rs-layer>
+                                            <!--
+-->
+                                        </rs-slide>
+                                        <rs-slide style="position: absolute;" data-key="rs-28" data-title="Slide" data-thumb="//pizzaro.madrasthemes.com/wp-content/uploads/2018/10/07-HomePage-Parallax-new-100x50.jpg" data-anim="adpr:false;">
+                                            <img src="//pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home v1" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//pizzaro.madrasthemes.com/wp-content/uploads/2018/10/07-HomePage-Parallax-new.jpg"
+                                                data-no-retina>
+                                            <!--
+							-->
+                                            <rs-layer id="slider-6-slide-28-layer-1" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:194px;" data-text="s:36;l:30;fw:300;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;sR:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;sR:8200;" style="z-index:5;font-family:'Yanone Kaffeesatz';">EXCLUSIVE OFFER
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-28-layer-2" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:c;y:251px;" data-text="s:130;l:120;fw:700;a:center;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;sR:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:w;sR:8200;" style="z-index:6;font-family:'Yanone Kaffeesatz';">VEGGIE FUN<br> DELICIOUS SUMMER!
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-28-layer-3" class="tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:367px;y:230px;" data-text="fw:700;" data-dim="w:66px;h:66px;" data-border="bor:50px,50px,50px,50px;"
+                                                data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;sR:500;" data-frame_999="o:0;tp:600;e:nothing;st:w;sR:8200;" style="z-index:7;background-color:rgba(255,174,0,1);">
+                                            </rs-layer>
+                                            <!--
+
+							-->
+                                            <rs-layer id="slider-6-slide-28-layer-4" data-type="text" data-color="rgba(255, 255, 255, 1)" data-rsp_ch="on" data-xy="x:379px;y:250px;" data-text="s:26;l:26;fw:700;" data-frame_0="tp:600;" data-frame_1="tp:600;e:power2.inOut;st:500;sR:500;"
+                                                data-frame_999="o:0;tp:600;e:nothing;st:8900;sR:8100;" style="z-index:8;font-family:'Yanone Kaffeesatz';">NEW!
+                                            </rs-layer>
+                                            <!--
+-->
+                                        </rs-slide>
+                                    </rs-slides>
+                                </rs-module>
+                                <script>
+                                    setREVStartSize({
+                                        c: 'rev_slider_6_1',
+                                        rl: [1240, 1024, 778, 480],
+                                        el: [],
+                                        gw: [1240],
+                                        gh: [880],
+                                        type: 'standard',
+                                        justify: '',
+                                        layout: 'fullwidth',
+                                        mh: "0"
+                                    });
+                                    if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider61"] !== undefined) {
+                                        window.RS_MODULES.modules["revslider61"].once = false;
+                                        window.revapi6 = undefined;
+                                        if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal()
+                                    }
+                                </script>
+                            </rs-module-wrap>
+                            <!-- END REVOLUTION SLIDER -->
+                        </div>
+                        <div class="tiles">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="banner top-left">
+                                        <a href="#">
+                                            <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/2.jpg ); height: 442px;">
+                                                <div class="caption">
+                                                    <h3 class="title">GRILLED CHICKEN</h3>
+                                                    <h4 class="subtitle">SUMMER PIZZA</h4>
+                                                    <span class="button">HOT &amp; SPICY</span>
+                                                    <span class="condition"><em>*</em>ONLY IN LOCAL</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <div class="banners">
+                                        <div class="row">
+                                            <div class="banner col-sm-6 top-right">
+                                                <a href="#">
+                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/5-1.jpg ); height: 210px;">
+                                                        <div class="caption">
+                                                            <h3 class="title">FREE</h3>
+                                                            <h4 class="subtitle">FRIES</h4>
+                                                            <div class="description">for online orders in wendsdays</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="banner col-sm-6 top-right">
+                                                <a href="#">
+                                                    <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/4-1.jpg ); height: 210px;">
+                                                        <div class="caption">
+                                                            <h3 class="title">iCED COFFEE</h3>
+                                                            <h4 class="subtitle">SUMMERS</h4>
+                                                            <span class="condition"><em>*</em>ONLY IN LOCAL</span>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="banner center">
+                                        <a href="#">
+                                            <div class="banner-bg" style="background-size: cover; background-position: center center; background-image: url( https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/3-1.jpg ); height: 210px;">
+                                                <div class="caption">
+                                                    <h3 class="title"><span>ORDER</span> ONLINE</h3>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-tabs">
+
+                            <ul class="nav nav-inline">
+
+
+                                <li class="nav-item 
+						">
+                                    <a class="nav-link" href="#tab-68bd025d8719a0" data-toggle="tab">
+					Wraps				</a>
+                                </li>
+
+
+                                <li class="nav-item 
+			active			">
+                                    <a class="nav-link" href="#tab-68bd025d8719a1" data-toggle="tab">
+					Pizza Sets				</a>
+                                </li>
+
+
+                                <li class="nav-item 
+						">
+                                    <a class="nav-link" href="#tab-68bd025d8719a2" data-toggle="tab">
+					Burgers				</a>
+                                </li>
+
+
+                            </ul>
+
+                            <div class="tab-content">
+
+
+                                <div class="tab-pane 
+						" id="tab-68bd025d8719a0" role="tabpanel">
+                                    <div class="section-products">
+
+
+                                        <div class="woocommerce columns-3 ">
+                                            <ul class="products columns-3">
+                                                <li class="product type-product post-270 status-publish first instock product_cat-cold-drinks product_cat-shakes has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/blueberry-shake/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="59" title="59" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59-300x300.jpg 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59-100x100.jpg 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59-600x600.jpg 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59-150x150.jpg 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59-768x768.jpg 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/59.jpg 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/blueberry-shake/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Blueberry Shake</h2>
+                                                                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>1.50</bdi>
+                                                                    </span>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=270" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_270" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="270" data-product_sku="" aria-label="Add to cart: &ldquo;Blueberry Shake&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Blueberry Shake&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_270" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                                <li class="product type-product post-278 status-publish instock product_cat-cold-drinks product_cat-desserts has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/chocolate-cake/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="70" title="70" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70-300x300.jpg 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70-100x100.jpg 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70-600x600.jpg 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70-150x150.jpg 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70-768x768.jpg 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/70.jpg 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/chocolate-cake/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Chocolate cake</h2>
+                                                                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>1.50</bdi>
+                                                                    </span>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=278" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_278" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="278" data-product_sku="" aria-label="Add to cart: &ldquo;Chocolate cake&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Chocolate cake&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_278" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                                <li class="product type-product post-294 status-publish last instock product_cat-cold-drinks product_cat-desserts has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/chocolate-muffin/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80-300x300.jpg" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="80" title="80" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80-300x300.jpg 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80-100x100.jpg 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80-600x600.jpg 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80-150x150.jpg 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80-768x768.jpg 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/80.jpg 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/chocolate-muffin/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Chocolate Muffin</h2>
+                                                                    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&pound;</span>1.50</bdi>
+                                                                    </span>
+                                                                    </span>
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=294" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_294" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="294" data-product_sku="" aria-label="Add to cart: &ldquo;Chocolate Muffin&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Chocolate Muffin&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_294" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane 
+			active			" id="tab-68bd025d8719a1" role="tabpanel">
+                                    <div class="section-products">
+
+
+                                        <div class="woocommerce columns-3 ">
+                                            <ul class="products columns-3">
+                                                <li class="product type-product post-48 status-publish first instock product_cat-pizza has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/summer-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-6" title="pizza-6" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-6.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/summer-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Summer Pizza</h2>
+                                                                    <div class="woocommerce-product-details__short-description">
+                                                                        <p>Shrimp, Red Capsicum, Green Capsicum, Onion, Chilli flakes, Lemon Pepper, Mozzarella, finished with Aioli</p>
+                                                                    </div>
+                                                                    <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5"><span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5</span></div>
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=48" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_48" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="48" data-product_sku="" aria-label="Add to cart: &ldquo;Summer Pizza&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Summer Pizza&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_48" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                                <li class="product type-product post-56 status-publish instock product_cat-pizza has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/apricot-chicken/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-3" title="pizza-3" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/apricot-chicken/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Apricot Chicken</h2>
+                                                                    <div class="woocommerce-product-details__short-description">
+                                                                        <p>Crispy bacon, tasty ham, pineapple, onion and stretchy mozzarella, finished with a BBQ swirl.</p>
+                                                                    </div>
+
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=56" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_56" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="56" data-product_sku="" aria-label="Add to cart: &ldquo;Apricot Chicken&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Apricot Chicken&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_56" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                                <li class="product type-product post-82 status-publish last instock product_cat-pizza has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/pepperoni-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-1" title="pizza-1" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/pepperoni-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Pepperoni Pizza</h2>
+                                                                    <div class="woocommerce-product-details__short-description">
+                                                                        <p>Extra-virgin olive oil, garlic, mozzarella cheese, onions, mushrooms, green olives, black olives, fresh tomatoes.</p>
+                                                                    </div>
+
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=82" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_82" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="82" data-product_sku="" aria-label="Add to cart: &ldquo;Pepperoni Pizza&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Pepperoni Pizza&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_82" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="tab-pane 
+						" id="tab-68bd025d8719a2" role="tabpanel">
+                                    <div class="section-products">
+
+
+                                        <div class="woocommerce columns-3 ">
+                                            <ul class="products columns-3">
+                                                <li class="product type-product post-125 status-publish first instock product_cat-burgers has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/bacon-burger/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="burgers-8" title="burgers-8" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-8.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/bacon-burger/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Bacon Burger</h2>
+                                                                    <div class="woocommerce-product-details__short-description">
+                                                                        <p>A mighty meaty double helping of all the reasons you love our burger.</p>
+                                                                    </div>
+
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=125" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_125" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="125" data-product_sku="" aria-label="Add to cart: &ldquo;Bacon Burger&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Bacon Burger&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_125" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                                <li class="product type-product post-129 status-publish instock product_cat-burgers has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/cheese-butter/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="burgers-7" title="burgers-7" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/burgers-7.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/cheese-butter/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Cheese Butter</h2> <span class="food-type-icon">
+				<i class="po po-veggie-icon"></i>			</span>
+                                                                    <div class="woocommerce-product-details__short-description">
+                                                                        <p>A mighty meaty double helping of all the reasons you love our burger.</p>
+                                                                    </div>
+
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=129" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_129" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="129" data-product_sku="" aria-label="Add to cart: &ldquo;Cheese Butter&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Cheese Butter&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_129" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                                <li class="product type-product post-243 status-publish last instock product_cat-burgers has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                                    <div class="product-outer">
+                                                        <div class="product-inner">
+                                                            <div class="product-image-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/chicken-burger/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/burgers-3-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="burgers-3" title="burgers-3" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/burgers-3-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/burgers-3-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/burgers-3-100x100.png 100w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                                </div>
+                                                            <div class="product-content-wrapper">
+                                                                <a href="https://pizzaro.madrasthemes.com/product/chicken-burger/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                                    <h2 class="woocommerce-loop-product__title">Chicken Burger</h2>
+                                                                    <div class="woocommerce-product-details__short-description">
+                                                                        <p>A mighty meaty double helping of all the reasons you love our burger.</p>
+                                                                    </div>
+
+                                                                </a>
+                                                                <div class="hover-area">
+                                                                    <a href="?add-to-cart=243" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_243" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="243" data-product_sku="" aria-label="Add to cart: &ldquo;Chicken Burger&rdquo;"
+                                                                        rel="nofollow" data-success_message="&ldquo;Chicken Burger&rdquo; has been added to your cart">Add to cart</a>
+                                                                    <span
+                                                                        id="woocommerce_loop_add_to_cart_link_describedby_243" class="screen-reader-text">
+                                                                        </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /.product-inner -->
+                                                    </div>
+                                                    <!-- /.product-outer -->
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <div class="stretch-full-width section-products-sale-event" style="background-size: cover; background-position: center center; background-image: url( https://pizzaro.madrasthemes.com/wp-content/uploads/2016/12/1-1.jpg ); height: 468px;">
+                            <div class="sale-event-content">
+                                <h3 class="pre-title"><span>FREE DELIVERY WITH</span></h3>
+
+                                <h2 class="section-title">PIZZA OF THE DAY</h2>
+
+                                <div class="sale-event-products">
+                                    <div class="products-price">
+                                        <span class="price"><span class="currency"> &pound;</span>9<span class="decimals">99</span><span class="price-info">EACH</span></span>
+                                    </div>
+                                    <ul class="products-info">
+                                        <li>
+                                            <a href="https://pizzaro.madrasthemes.com/product/chicken-hawaii/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                <h2 class="woocommerce-loop-product__title">Chicken Hawaii</h2>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://pizzaro.madrasthemes.com/product/summer-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                <h2 class="woocommerce-loop-product__title">Summer Pizza</h2>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://pizzaro.madrasthemes.com/product/vegge-lover/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                <h2 class="woocommerce-loop-product__title">Vegge Lover</h2>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <a href="#" class="button">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="section-products">
+
+                            <h2 class="section-title">Goes Great With</h2>
+
+                            <div class="woocommerce columns-4 ">
+                                <ul class="products columns-4">
+                                    <li class="product type-product post-82 status-publish first instock product_cat-pizza has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                        <div class="product-outer">
+                                            <div class="product-inner">
+                                                <div class="product-image-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/pepperoni-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-1" title="pizza-1" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-1.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                    </div>
+                                                <div class="product-content-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/pepperoni-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                        <h2 class="woocommerce-loop-product__title">Pepperoni Pizza</h2>
+                                                        <div class="woocommerce-product-details__short-description">
+                                                            <p>Extra-virgin olive oil, garlic, mozzarella cheese, onions, mushrooms, green olives, black olives, fresh tomatoes.</p>
+                                                        </div>
+
+                                                    </a>
+                                                    <div class="hover-area">
+                                                        <a href="?add-to-cart=82" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_82" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="82" data-product_sku="" aria-label="Add to cart: &ldquo;Pepperoni Pizza&rdquo;"
+                                                            rel="nofollow" data-success_message="&ldquo;Pepperoni Pizza&rdquo; has been added to your cart">Add to cart</a> <span id="woocommerce_loop_add_to_cart_link_describedby_82"
+                                                            class="screen-reader-text">
+			</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.product-inner -->
+                                        </div>
+                                        <!-- /.product-outer -->
+                                    </li>
+                                    <li class="product type-product post-58 status-publish instock product_cat-pizza has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
+                                        <div class="product-outer">
+                                            <div class="product-inner">
+                                                <div class="product-image-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/trio-cheese/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-2" title="pizza-2" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-2.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                    </div>
+                                                <div class="product-content-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/trio-cheese/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                        <h2 class="woocommerce-loop-product__title">Trio Cheese</h2> <span class="food-type-icon">
+				<i class="po po-veggie-icon"></i>			</span>
+                                                        <div class="woocommerce-product-details__short-description">
+                                                            <p>Mouth watering pepperoni, cabanossi, mushroom, capsicum, black olives and stretchy mozzarella,</p>
+                                                        </div>
+
+                                                    </a>
+                                                    <div class="hover-area">
+                                                        <a href="?add-to-cart=58" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_58" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="58" data-product_sku="" aria-label="Add to cart: &ldquo;Trio Cheese&rdquo;"
+                                                            rel="nofollow" data-success_message="&ldquo;Trio Cheese&rdquo; has been added to your cart">Add to cart</a> <span id="woocommerce_loop_add_to_cart_link_describedby_58"
+                                                            class="screen-reader-text">
+			</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.product-inner -->
+                                        </div>
+                                        <!-- /.product-outer -->
+                                    </li>
+                                    <li class="product type-product post-56 status-publish instock product_cat-pizza has-post-thumbnail shipping-taxable purchasable product-type-simple">
+                                        <div class="product-outer">
+                                            <div class="product-inner">
+                                                <div class="product-image-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/apricot-chicken/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-3" title="pizza-3" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-3.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                    </div>
+                                                <div class="product-content-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/apricot-chicken/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                        <h2 class="woocommerce-loop-product__title">Apricot Chicken</h2>
+                                                        <div class="woocommerce-product-details__short-description">
+                                                            <p>Crispy bacon, tasty ham, pineapple, onion and stretchy mozzarella, finished with a BBQ swirl.</p>
+                                                        </div>
+
+                                                    </a>
+                                                    <div class="hover-area">
+                                                        <a href="?add-to-cart=56" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_56" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="56" data-product_sku="" aria-label="Add to cart: &ldquo;Apricot Chicken&rdquo;"
+                                                            rel="nofollow" data-success_message="&ldquo;Apricot Chicken&rdquo; has been added to your cart">Add to cart</a> <span id="woocommerce_loop_add_to_cart_link_describedby_56"
+                                                            class="screen-reader-text">
+			</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.product-inner -->
+                                        </div>
+                                        <!-- /.product-outer -->
+                                    </li>
+                                    <li class="product type-product post-53 status-publish last instock product_cat-pizza has-post-thumbnail featured shipping-taxable purchasable product-type-simple">
+                                        <div class="product-outer">
+                                            <div class="product-inner">
+                                                <div class="product-image-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/italiano-original/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="300" height="300" src="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4-300x300.png" class="attachment-shop_catalog size-shop_catalog wp-post-image" alt="pizza-4" title="pizza-4" decoding="async" loading="lazy" srcset="https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4-300x300.png 300w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4-150x150.png 150w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4-768x768.png 768w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4-600x600.png 600w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4-100x100.png 100w, https://pizzaro.madrasthemes.com/wp-content/uploads/2016/10/pizza-4.png 1024w" sizes="auto, (max-width: 300px) 100vw, 300px" /></a>                                                    </div>
+                                                <div class="product-content-wrapper">
+                                                    <a href="https://pizzaro.madrasthemes.com/product/italiano-original/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                        <h2 class="woocommerce-loop-product__title">Italiano Original</h2>
+                                                        <div class="woocommerce-product-details__short-description">
+                                                            <p>Ricotta, sun dried tomatoes, garlic, mozzarella cheese, topped with lightly drizzled red sauce, pesto, and fresh basil</p>
+                                                        </div>
+
+                                                    </a>
+                                                    <div class="hover-area">
+                                                        <a href="?add-to-cart=53" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_53" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="53" data-product_sku="" aria-label="Add to cart: &ldquo;Italiano Original&rdquo;"
+                                                            rel="nofollow" data-success_message="&ldquo;Italiano Original&rdquo; has been added to your cart">Add to cart</a> <span id="woocommerce_loop_add_to_cart_link_describedby_53"
+                                                            class="screen-reader-text">
+			</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.product-inner -->
+                                        </div>
+                                        <!-- /.product-outer -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="section-product" style="background-size: cover; background-position: center center; background-image: url( https://pizzaro.madrasthemes.com/wp-content/uploads/2016/09/01-HomePage.png ); height: 556px;">
+
+                            <div class="product-wrapper">
+
+                                <div class="product-inner">
+                                    <a href="https://pizzaro.madrasthemes.com/product/pepperoni-pizza/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                        <h2 class="woocommerce-loop-product__title">Pepperoni Pizza</h2>
+                                        <div class="woocommerce-product-details__short-description">
+                                            <p>Extra-virgin olive oil, garlic, mozzarella cheese, onions, mushrooms, green olives, black olives, fresh tomatoes.</p>
+                                        </div>
+                                    </a><a href="?add-to-cart=82" aria-describedby="woocommerce_loop_add_to_cart_link_describedby_82" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="82" data-product_sku=""
+                                        aria-label="Add to cart: &ldquo;Pepperoni Pizza&rdquo;" rel="nofollow" data-success_message="&ldquo;Pepperoni Pizza&rdquo; has been added to your cart">Add to cart</a> <span id="woocommerce_loop_add_to_cart_link_describedby_82"
+                                        class="screen-reader-text">
+			</span>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="features-list">
+                            <div class="row">
+                                <div class="feature col-xs-12 col-sm-3">
+                                    <div class="feature-icon"><i class="po po-best-quality"></i></div>
+                                    <div class="feature-label">
+                                        <h4>Best Quality</h4>
+                                        <p>Praesent pulvinar neque pellentesque mattis pretium.</p>
+                                    </div>
+                                </div>
+                                <div class="feature col-xs-12 col-sm-3">
+                                    <div class="feature-icon"><i class="po po-on-time"></i></div>
+                                    <div class="feature-label">
+                                        <h4>On Time</h4>
+                                        <p>Praesent pulvinar neque pellentesque mattis pretium.</p>
+                                    </div>
+                                </div>
+                                <div class="feature col-xs-12 col-sm-3">
+                                    <div class="feature-icon"><i class="po po-master-chef"></i></div>
+                                    <div class="feature-label">
+                                        <h4>MasterChefs</h4>
+                                        <p>Praesent pulvinar neque pellentesque mattis pretium.</p>
+                                    </div>
+                                </div>
+                                <div class="feature col-xs-12 col-sm-3">
+                                    <div class="feature-icon"><i class="po po-ready-delivery"></i></div>
+                                    <div class="feature-label">
+                                        <h4>Taste Food</h4>
+                                        <p>Praesent pulvinar neque pellentesque mattis pretium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </main>
+                    <!-- #main -->
+                </div>
+                <!-- #primary -->
+
+            </div>
+            <!-- .col-full -->
+        </div>
+        <!-- #content -->
+
+        <div class="footer-v1-static-content">
+            <style type="text/css">
+                body.kc-css-system .kc-css-1044900 ul li {
+                    padding: 0px 0px 0px 0px;
+                }
+            </style>
+            <section class="kc-elm kc-css-2464054 kc_row">
+                <div class="kc-row-container  kc-container">
+                    <div class="kc-wrap-columns">
+                        <div class="kc-elm kc-css-588033 kc_col-sm-12 kc_column kc_col-sm-12">
+                            <div class="stretch-full-width kc-col-container">
+                                <div class="kc-elm kc-css-1044900 kc_shortcode kc_wrap_instagram  kc_ins_col_6" data-cfg="eyJudW1iZXJfc2hvdyI6IjYiLCJjb2x1bW5zX3N0eWxlIjoiNiIsIl9pZCI6IjEwNDQ5MDAiLCJpbWFnZV9zaXplIjoibG93X3Jlc29sdXRpb24iLCJ1c2VybmFtZSI6Im1hZHJhc3RoZW1lIiwiYWNjZXNzX3Rva2VuIjoia2Mtc2VjcmVjdC0xMDg5MzEwMjMyNiIsImNzc19jdXN0b20iOiJ7YGtjLWNzc2A6e2BhbnlgOntgaW5zdGFnYXJhbS1zdHlsZWA6e2BwYWRkaW5nfHVsIGxpYDpgMHB4IDBweCAwcHggMHB4YH19fX0iLCJ0aXRsZSI6IiIsIndyYXBfY2xhc3MiOiIiLCJhbmltYXRlIjoiIn0=">
+                                    <ul>
+                                        <li class="ins_mark_low_resolution el-start"></li>
+                                        <li class="ins_mark_low_resolution "></li>
+                                        <li class="ins_mark_low_resolution "></li>
+                                        <li class="ins_mark_low_resolution "></li>
+                                        <li class="ins_mark_low_resolution "></li>
+                                        <li class="ins_mark_low_resolution el-end"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer id="colophon" class="site-footer footer-v1" role="contentinfo">
+            <div class="col-full">
+
+                <div class="footer-social-icons">
+                    <span class="social-icon-text">Follow us</span>
+                    <ul class="social-icons list-unstyled">
+                        <li><a class="fab fa-facebook-f" href="#"></a></li>
+                        <li><a class="fab fa-twitter" href="#"></a></li>
+                        <li><a class="fab fa-instagram" href="#"></a></li>
+                        <li><a class="fab fa-youtube" href="#"></a></li>
+                        <li><a class="fab fa-dribbble" href="#"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-logo"><a href="https://pizzaro.madrasthemes.com/" class="custom-logo-link" rel="home"><svg id="pizzaro-logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 52.39">
+	<path class="cls-1" d="M51.33,16.15A5.61,5.61,0,0,0,56,10.88a4,4,0,0,0-4.67-4,5.38,5.38,0,0,0-4.67,5.22A4.07,4.07,0,0,0,51.33,16.15ZM21.42,3.69C6.1,5.62,0,17.8,0,25.47a16.41,16.41,0,0,0,2.6,8.68l5.62-4.92A11,11,0,0,1,7,24.48c0-5.22,5-13,14.42-14.18,8.17-1,10.5,4.17,10.5,8.48,0,8.21-8.17,14.51-14.42,11.78l3.23-8.35A10.87,10.87,0,0,1,25,16.72l-1.54-4.39c-5.3.67-9,5.19-10.5,9.05L1.17,52.4,9.6,51.34l5.73-15.11C29.59,40.35,40,28.8,40,17.72,40,9.67,34.47,2.05,21.42,3.69ZM197,12.22c-2.17,4-4.77,6.3-7.37,7.06A25.1,25.1,0,0,0,192,9.22c0-6.18-3.55-9.47-10-8.66-8.82,1.11-13.92,9-15.71,15.8-4,7.28-6.48,10.81-7.94,11-0.74.09-2-.6,0.42-6.88l1.48-4a8,8,0,0,0,.64-2.74c0-4-6.52-6.16-8.7-7.81L154,1.49,150.53,0c-2.17,1-5,4.2-5,6.92a4,4,0,0,0,1.64,3c-1.54,3.6-3,6.83-4.19,9.06h0c-3.82,7-7.42,11.22-9.54,11.49-1,.12-1.86-0.57.53-6.89l6.58-17.14-9.92,4.87s-1.17-4.17-6.31-3.52c-6.81.86-11.07,8.78-13.14,15.62-3.48,6.34-6.05,7.74-8,8-2.7.34-4.67-1.38-7.11-1.45l15.54-16.19-2.76-3.33c-5.2,2.63-9.17.46-13.52,1-6.36.8-7.58,6.71-12,15.05h0c-3.61,6.74-6.26,8.19-8.22,8.44-2.7.34-4.67-1.38-7.11-1.45L83.56,17.34,80.81,14c-5.2,2.63-9.17.46-13.52,1-6.36.8-7.58,6.71-12,15.05h0c-3.76,7-7.42,11.22-9.54,11.49-0.9.11-1.86-.51,0.58-6.9l6.52-17.13L44.38,18.6l-6,15.62c-3.87,10.13-.48,13.54,4.35,12.94,6.1-.77,11.4-7.62,15.48-15.33h0c3.45-6.51,4.56-7.93,7-8.24,2.23-.28,4.19.48,5.83,0.6L54.51,41.31l2.76,3.33c5.57-5.28,7.05-.2,13.63-1,6.73-.85,11-7.09,15.43-15.32h0c3.45-6.51,4.56-7.93,7-8.24,2.23-.28,4.19.48,5.83,0.6L82.61,37.77l2.76,3.33c5.57-5.29,7.05-.2,13.63-1,4.39-.55,7.72-3.4,10.74-7.59,0.25,3.46,2.25,6,6,5.49,4.67-.59,8.32-5.47,8.32-5.47s0.69,4.34,6.2,3.64c6.47-.81,11.61-7.59,15.75-15.36h0a93.45,93.45,0,0,0,4.24-9.11c1.43,1,2.6,1.86,2.6,2.92a5.62,5.62,0,0,1-.48,1.93L150.64,21c-3.82,9.91.58,12.45,4.72,11.93s7.48-4.12,10.53-8.89c0.9,4.5,4.34,7,9.93,6.31a16.62,16.62,0,0,0,11.08-6.67c5.41-.25,10.23-4.43,13.1-9.75A3.52,3.52,0,0,0,197,12.22ZM125,26.2s-2.44,4.14-5.36,4.51c-1.06.13-1.7-.37-1.7-1.76,0-3.41,3.92-13.87,8.11-14.4,2.33-.29,2.39,2.68,2.39,2.68Zm57.9-12.09a4.93,4.93,0,0,0-4.51,4.83,3.79,3.79,0,0,0,1.17,2.84c-1.17,1.69-2.49,2.93-3.76,3.09S173.7,24,173.7,22.3c0-3.94,4.08-15.65,8.27-16.18C183.09,6,184,6.66,184,8.63A18.75,18.75,0,0,1,182.87,14.11Z" transform="translate(0 -0.01)"></path>
+</svg>
+</a></div>
+                <div class="site-address">
+                    <ul class="address">
+                        <li>Pizzaro Restaurant </li>
+                        <li>901-947 South Drive, Houston, TX 77057, USA </li>
+                        <li>Telephone: +1 555 1234 </li>
+                        <li>Fax: +1 555 4444</li>
+                    </ul>
+                </div>
+                <div class="site-info">
+                    <p class="copyright">Copyright &copy; 2017 Pizzaro Theme. All rights reserved.</p>
+                </div>
+                <!-- .site-info -->
+                <a role="button" class="footer-action-btn" data-toggle="collapse" href="#footer-map-collapse">
+			<i class="po po-map-marker"></i>
+			Find us on Map		</a>
+                <div class="pizzaro-handheld-footer-bar">
+                    <ul class="columns-3">
+                        <li class="footer-link__my-account">
+                            <a href="https://pizzaro.madrasthemes.com/my-account/">
+			<i class="far fa-user"></i>
+			<span class="sr-only">My Account</span>
+		</a>
+                        </li>
+                        <li class="footer-link__search">
+                            <a href="#">
+			<i class="fas fa-search"></i>
+			<span class="sr-only">Search</span>
+		</a>
+                            <div class="site-search">
+                                <div class="widget woocommerce widget_product_search">
+                                    <form role="search" method="get" class="woocommerce-product-search" action="https://pizzaro.madrasthemes.com/">
+                                        <label class="screen-reader-text" for="woocommerce-product-search-field-0">Search for:</label>
+                                        <input type="search" id="woocommerce-product-search-field-0" class="search-field" placeholder="Search products&hellip;" value="" name="s" />
+                                        <button type="submit" value="Search" class="">Search</button>
+                                        <input type="hidden" name="post_type" value="product" />
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="footer-link__cart">
+                            <a class="footer-cart-contents" href="https://pizzaro.madrasthemes.com/cart/" title="View your shopping cart">
+				<i class="fas fa-shopping-cart"></i>
+				<span class="count">0</span>
+			</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- .col-full -->
+        </footer>
+        <!-- #colophon -->
+
+        <div id="footer-map-collapse" class="footer-map collapse"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.69319292053!2d-0.3817765050863085!3d51.528307984912544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1sen!2sin!4v1463669021863"
+                height="462" allowfullscreen></iframe></div>
+
+    </div>
+    <!-- #page -->
+
+
+    <script>
+        window.RS_MODULES = window.RS_MODULES || {};
+        window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+        window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+        window.RS_MODULES.defered = false;
+        window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+        window.RS_MODULES.type = 'compiled';
+    </script>
+    <script type="speculationrules">
+        {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/pizzaro\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch,
+        .no-prefetch a"}}]},"eagerness":"conservative"}]}
+    </script>
+    <script>
+        (function(body) {
+            'use strict';
+            body.className = body.className.replace(/\btribe-no-js\b/, 'tribe-js');
+        })(document.body);
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http:\/\/schema.org\/",
+            "@type": "WebPage",
+            "url": "https:\/\/pizzaro.madrasthemes.com\/",
+            "name": "Home v1",
+            "description": ""
+        }
+    </script>
+    <script>
+        /* <![CDATA[ */
+        var tribe_l10n_datatables = {
+            "aria": {
+                "sort_ascending": ": activate to sort column ascending",
+                "sort_descending": ": activate to sort column descending"
+            },
+            "length_menu": "Show _MENU_ entries",
+            "empty_table": "No data available in table",
+            "info": "Showing _START_ to _END_ of _TOTAL_ entries",
+            "info_empty": "Showing 0 to 0 of 0 entries",
+            "info_filtered": "(filtered from _MAX_ total entries)",
+            "zero_records": "No matching records found",
+            "search": "Search:",
+            "all_selected_text": "All items on this page were selected. ",
+            "select_all_link": "Select all pages",
+            "clear_selection": "Clear Selection.",
+            "pagination": {
+                "all": "All",
+                "next": "Next",
+                "previous": "Previous"
+            },
+            "select": {
+                "rows": {
+                    "0": "",
+                    "_": ": Selected %d rows",
+                    "1": ": Selected 1 row"
+                }
+            },
+            "datepicker": {
+                "dayNames": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "dayNamesShort": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+                "dayNamesMin": ["S", "M", "T", "W", "T", "F", "S"],
+                "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesShort": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                "monthNamesMin": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+                "nextText": "Next",
+                "prevText": "Prev",
+                "currentText": "Today",
+                "closeText": "Done",
+                "today": "Today",
+                "clear": "Clear"
+            }
+        }; /* ]]> */
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700%2C300%2C400&display=swap" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+
+    <script type='text/javascript'>
+        (function() {
+            var c = document.body.className;
+            c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+            document.body.className = c;
+        })();
+    </script>
+    <script>
+        if (typeof revslider_showDoubleJqueryError === "undefined") {
+            function revslider_showDoubleJqueryError(sliderID) {
+                console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");
+                console.log("To fix this, you can:");
+                console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");
+                console.log("2. Find the double jQuery.js inclusion and remove it");
+                return "Double Included jQuery Library";
+            }
+        }
+    </script>
+    <link rel='stylesheet' id='wc-blocks-style-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.0.2' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='https://pizzaro.madrasthemes.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.6.7' type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        .tp-bullet {
+            text-align: center !important;
+            left: 0 !important
+        }
+
+        .tp-bullets {
+            width: 200px !important
+        }
+
+        .tp-bullets .tp-bullet+.tp-bullet {
+            margin-left: 10px !important
+        }
+
+        .custom.tp-bullets {
+            text-align: center
+        }
+
+        .custom .tp-bullet {
+            width: 8px !important;
+            height: 8px !important;
+            background-color: #fff !important;
+            position: relative !important;
+            display: inline-block !important;
+            border-radius: 50% !important
+        }
+
+        .custom .tp-bullet.selected {
+            width: 30px !important;
+            height: 8px !important;
+            border-radius: 3px !important;
+            z-index: 1 !important
+        }
+
+        strong {
+            font-weight: 700 !important
+        }
+
+        .custom.tp-bullets {}
+
+        .custom.tp-bullets:before {
+            content: ' ';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            padding: 10px;
+            margin-left: -10px;
+            margin-top: -10px;
+            box-sizing: content-box
+        }
+
+        .custom .tp-bullet {
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            background: #aaa;
+            background: rgba(125, 125, 125, 0.5);
+            cursor: pointer;
+            box-sizing: content-box
+        }
+
+        .custom .tp-bullet.rs-touchhover,
+        .custom .tp-bullet.selected {
+            background: rgb(125, 125, 125)
+        }
+
+        .custom .tp-bullet-image {}
+
+        .custom .tp-bullet-title {}
+    </style>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script type="text/javascript" id="wp-i18n-js-after">
+        /* <![CDATA[ */
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1" id="swv-js"></script>
+    <script type="text/javascript" id="contact-form-7-js-before">
+        /* <![CDATA[ */
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/pizzaro.madrasthemes.com\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1" id="contact-form-7-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/navigation.min.js?ver=20120206" id="pizzaro-navigation-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/skip-link-focus-fix.min.js?ver=20130115" id="pizzaro-skip-link-focus-fix-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/bootstrap.min.js?ver=3.3.7" id="bootstrap-js-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/jquery.waypoints.min.js?ver=4.0.0" id="waypoints-js-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/readmore.min.js?ver=2.2.0" id="readmore-js-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/jquery.mCustomScrollbar.concat.min.js?ver=3.1.5" id="custom-scrollbar-js-js"></script>
+    <script type="text/javascript" id="pizzaro-js-js-extra">
+        /* <![CDATA[ */
+        var pizzaro_options = {
+            "ajax_url": "https:\/\/pizzaro.madrasthemes.com\/wp-admin\/admin-ajax.php",
+            "ajax_loader_url": "https:\/\/pizzaro.madrasthemes.com\/wp-content\/themes\/pizzaro\/assets\/images\/ajax-loader.gif",
+            "enable_sticky_header": "",
+            "enable_excerpt_readmore": "1",
+            "excerpt_readmore_data": {
+                "speed": 75,
+                "collapsedHeight": 50,
+                "moreLink": "<span style=\"display:none\">See More &raquo;<\/span>",
+                "lessLink": "<span style=\"display:none\">&laquo; See Less<\/span>"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/themes/pizzaro/assets/js/scripts.min.js?ver=1.3.23" id="pizzaro-js-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.0.2" id="sourcebuster-js-js"></script>
+    <script type="text/javascript" id="wc-order-attribution-js-extra">
+        /* <![CDATA[ */
+        var wc_order_attribution = {
+            "params": {
+                "lifetime": 1.0000000000000000818030539140313095458623138256371021270751953125e-5,
+                "session": 30,
+                "base64": false,
+                "ajaxurl": "https:\/\/pizzaro.madrasthemes.com\/wp-admin\/admin-ajax.php",
+                "prefix": "wc_order_attribution_",
+                "allowTracking": true
+            },
+            "fields": {
+                "source_type": "current.typ",
+                "referrer": "current_add.rf",
+                "utm_campaign": "current.cmp",
+                "utm_source": "current.src",
+                "utm_medium": "current.mdm",
+                "utm_content": "current.cnt",
+                "utm_id": "current.id",
+                "utm_term": "current.trm",
+                "utm_source_platform": "current.plt",
+                "utm_creative_format": "current.fmt",
+                "utm_marketing_tactic": "current.tct",
+                "session_entry": "current_add.ep",
+                "session_start_time": "current_add.fd",
+                "session_pages": "session.pgs",
+                "session_count": "udata.vst",
+                "user_agent": "udata.uag"
+            }
+        };
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.0.2" id="wc-order-attribution-js"></script>
+    <script type="text/javascript" src="https://pizzaro.madrasthemes.com/wp-content/plugins/kingcomposer/assets/frontend/js/kingcomposer.min.js?ver=2.9.2" id="kc-front-scripts-js"></script>
+    <script id="rs-initialisation-scripts">
+        var tpj = jQuery;
+
+        var revapi6;
+
+        if (window.RS_MODULES === undefined) window.RS_MODULES = {};
+        if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
+        RS_MODULES.modules["revslider61"] = {
+            once: RS_MODULES.modules["revslider61"] !== undefined ? RS_MODULES.modules["revslider61"].once : undefined,
+            init: function() {
+                window.revapi6 = window.revapi6 === undefined || window.revapi6 === null || window.revapi6.length === 0 ? document.getElementById("rev_slider_6_1") : window.revapi6;
+                if (window.revapi6 === null || window.revapi6 === undefined || window.revapi6.length == 0) {
+                    window.revapi6initTry = window.revapi6initTry === undefined ? 0 : window.revapi6initTry + 1;
+                    if (window.revapi6initTry < 20) requestAnimationFrame(function() {
+                        RS_MODULES.modules["revslider61"].init()
+                    });
+                    return;
+                }
+                window.revapi6 = jQuery(window.revapi6);
+                if (window.revapi6.revolution == undefined) {
+                    revslider_showDoubleJqueryError("rev_slider_6_1");
+                    return;
+                }
+                revapi6.revolutionInit({
+                    revapi: "revapi6",
+                    sliderLayout: "fullwidth",
+                    visibilityLevels: "1240,1024,778,480",
+                    gridwidth: 1240,
+                    gridheight: 880,
+                    lazyType: "smart",
+                    spinner: "spinner0",
+                    perspectiveType: "local",
+                    responsiveLevels: "1240,1024,778,480",
+                    progressBar: {
+                        disableProgressBar: true
+                    },
+                    navigation: {
+                        mouseScrollNavigation: false,
+                        onHoverStop: false,
+                        bullets: {
+                            enable: true,
+                            tmp: "",
+                            style: "custom",
+                            rtl: true,
+                            v_offset: 50
+                        }
+                    },
+                    viewPort: {
+                        global: true,
+                        globalDist: "-200px",
+                        enable: false,
+                        visible_area: "20%"
+                    },
+                    fallbacks: {
+                        allowHTML5AutoPlayOnAndroid: true
+                    },
+                });
+
+            }
+        } // End of RevInitScript
+
+        if (window.RS_MODULES.checkMinimal !== undefined) {
+            window.RS_MODULES.checkMinimal();
+        };
+    </script>
+
+</body>
+
+</html>
